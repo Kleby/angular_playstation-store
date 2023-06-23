@@ -1,6 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/sst');
+
 *{
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'SST', sans-serif;
+}
+
+.active{
+    color: #0070d1;
+    background-color: #EBEEF0;
 }

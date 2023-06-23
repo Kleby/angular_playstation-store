@@ -1,1 +1,40 @@
-<p>menu-bar works!</p>
+<nav class="container__nav-bar">
+    <div class="nav-bar__logo-pss">
+        <img 
+            src="/assets/images/ps-logo.png" 
+            alt="PlayStation Logo" 
+        />
+    </div>
+    <ul class="nav-bar__menu">
+        <li><a 
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"
+            >Novidades</a></li>
+        <li><a 
+            routerLink="/collection"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"
+            >Coleções</a></li>
+        <li><a 
+            routerLink="/offers"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"
+            >Ofertas</a></li>
+        <li><a 
+            routerLink="/ps5"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"
+            >PS5</a></li>
+        <li><a 
+            routerLink="/subscription" 
+            routerLinkActive="active" 
+            [routerLinkActiveOptions]="{exact: true}"
+            >Assinatura</a></li>
+        <li><a 
+            routerLink="/navigate"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"
+            >Support</a></li>
+    </ul>
+</nav>
