@@ -1,0 +1,27 @@
+.card__container{
+    max-width: 350px;
+    max-height: 500px;;
+    position: relative;
+
+    display: flex;
+    margin: 10px 0;
+    border: 3px solid #3E43577d;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.card__container > a{
+    width: 100%;
+    height: 100%;
+}
+
+.card__container .card__img{
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform 800ms;
+}
+
+.card__container .card__img:hover{
+    transform: scale(1.05);
+}
