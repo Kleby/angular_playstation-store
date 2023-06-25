@@ -1,11 +1,11 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-export class CardComponent {
+export class CardComponent implements OnInit{
   @Input() gameCover!:string;
   @Input() titleGame!: string;
   @Input() titlePrice!: string;
@@ -14,5 +14,7 @@ export class CardComponent {
   @Input() price!:string;
   @Input() gameLabel!: string;
 
+  ngOnInit(): void {    
+  }
 
 }

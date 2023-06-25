@@ -21,10 +21,13 @@
 }
 
 .header__container .header__nav-bar{
-    /* width: 100%; */
     display: flex;
     align-items: center;
     margin: auto;
+}
+
+.header__nav-bar .menu-hamburguer{
+    display: none;
 }
 
 

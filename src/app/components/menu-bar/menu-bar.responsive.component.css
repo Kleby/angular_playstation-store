@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px){
+    .header__container{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .header__container .nav-bar__menu{
+        display: none;
+    }
+    .header__nav-bar .menu-hamburguer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 42px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .menu-hamburguer .menu-hamburguer__line,
+    .menu-hamburguer .menu-hamburguer__line::after,
+    .menu-hamburguer .menu-hamburguer__line::before
+    {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 16px;
+        background-color: #363636;
+    }
+
+    .menu-hamburguer .menu-hamburguer__line::after{
+        position: absolute;
+        bottom: 12px;
+    }
+    .menu-hamburguer .menu-hamburguer__line::before{
+        position: absolute;
+        top: 13px;
+    } 
+}

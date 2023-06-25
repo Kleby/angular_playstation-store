@@ -4,7 +4,7 @@
             [src]="gameCover"
             [alt]="titleGame"
         />
-        <app-card-label 
+        <app-card-label *ngIf="gameLabel"
             gameLabel={{gameLabel}} 
         />
         <app-card-pricing 
