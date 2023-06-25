@@ -1,0 +1,22 @@
+.card-label__component{
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+    background-color: #0D0D0D;
+    border-radius: 3px;
+    margin-right: 6px;
+    pointer-events: none;
+}
+
+.card-label__component .card-label__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-label__content > p {
+    margin: 8px 32px;
+    color: #fff ;
+    font-size: 12px ;
+    font-weight: 700;
+}

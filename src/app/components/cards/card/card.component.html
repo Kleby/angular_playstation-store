@@ -1,8 +1,18 @@
 <div class="card__container">
     <a href="">
         <img class="card__img"
-            src="assets/images/bt-1.jpg" 
-            alt="x"
+            [src]="gameCover"
+            [alt]="titleGame"
+        />
+        <app-card-label 
+            gameLabel={{gameLabel}} 
+        />
+        <app-card-pricing 
+        titlePrice={{titlePrice}}
+        midia={{midia}} 
+        console={{console}}
+        price={{price}}
+        class="price"
         />
     </a>
 </div>

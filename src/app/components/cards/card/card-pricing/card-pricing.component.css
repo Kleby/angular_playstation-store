@@ -1,0 +1,74 @@
+.card-pricing__container{
+    padding: 0 16px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000A;
+    color: #FFF;
+    font-family: Calibri,  sans-serif;
+}
+
+.card-pricing__title{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.card-pricing__title > h3{
+    font-size: 1.1rem;
+}
+
+.card-pricing__description{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.card-pricing__description__console{
+    font-size: 12px;
+}
+
+.card-pricing__description__console p {
+    display: flex;
+    align-items: center;
+}
+
+.pipe-line{
+    content: ' ';
+    display: block;
+    height: 15px;
+    width: 2px;
+    background-color: #FFF; 
+    z-index: 1;
+    margin:  0 3px;
+}
+
+.pipe-line:first-child{
+    background-color: #0070d1; 
+    filter: blur(0.6px);
+    font-weight: bolder;
+    margin-left: 0;     
+}
+
+.pipe-line-console{
+    margin: 0 3px;
+}
+
+.card-pricing__description__price{
+    justify-content: flex-end;
+}
+
+.card-pricing__description__price > p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.card-pricing__description__console, 
+.card-pricing__description__price{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
