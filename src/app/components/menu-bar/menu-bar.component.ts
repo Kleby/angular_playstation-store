@@ -10,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class MenuBarComponent {
 
+  toggle: boolean = false  
+
+  onTaggle(){
+    console.log(this.toggle);
+    return this.toggle = !this.toggle;
+  }
+
 }

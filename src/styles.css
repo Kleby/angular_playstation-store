@@ -16,3 +16,8 @@ body{
     color: #0070d1;
     background-color: #EBEEF0;
 }
+
+.menu-toggle{
+    display: flex;
+    right: -20px;
+}
